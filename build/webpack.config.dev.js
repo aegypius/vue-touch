@@ -22,7 +22,7 @@ const config = {
     rules: [
       {
         test: /\.js$/,
-        loader: 'buble-loader',
+        loader: 'babel-loader',
         exclude: path.resolve(__dirname, "../node_modules")
       },
       {

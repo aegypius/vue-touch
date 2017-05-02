@@ -1,4 +1,4 @@
-import buble from 'rollup-plugin-buble'
+import babel from 'rollup-plugin-babel'
 import commonjs from 'rollup-plugin-commonjs'
 import nodeResolve from 'rollup-plugin-node-resolve'
 import cleanup from 'rollup-plugin-cleanup'
@@ -15,7 +15,7 @@ export default {
   moduleName: 'VueTouch',
 
   plugins: [
-    buble(),
+    babel(),
     nodeResolve({ jsnext: true, main: true }),
     commonjs(),
     cleanup()

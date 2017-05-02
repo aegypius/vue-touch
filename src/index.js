@@ -33,4 +33,4 @@ vueTouch.component = Component
 
 // Utilities
 // ********
-module.exports = vueTouch;
+export default vueTouch;
